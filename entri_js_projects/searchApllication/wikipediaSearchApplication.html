@@ -1,0 +1,110 @@
+    <!doctype html>
+    <html lang="en">
+    
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <title>wikipedia Search Application</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    </head>
+    
+    <body>
+       
+    
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:50px;">
+        <div class="container-fluid">
+            <div class="dropdown">
+                <div class="btn btn-secondary dropdown-toggle"   data-bs-toggle="dropdown"
+                    aria-expanded="false">Home
+                    
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="max-height:200px;
+                overflow-y: scroll;">
+                    <li><a class="dropdown-item" href="#">Home</a></li>
+                    <li><a class="dropdown-item" href="#">content</a></li>
+                    <li><a class="dropdown-item" href="#">Another Page</a></li>
+                    <li><a class="dropdown-item" href="#">current page</a></li>
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="../images/wikipedia.jpeg" style="border: 1px transparent solid;padding: 5px;">
+            </div>
+           
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                    style="width: 600px;">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div style="margin-top:100px; border: 3px gray solid;">
+    <div class="row row-cols-1 row-cols-md-2 g-4" style="margin: 50px;">
+        <div class="col">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-PJr-CeRbN-U5m1cguY-Npy4rv6WNEZsYHA&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body" style="height: 400px;width: 400px;">
+                    <h5 class="card-title">on this day</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mars_helicopter_on_sol_46.png/210px-Mars_helicopter_on_sol_46.png" class="card-img-top" alt="..." style="height: 200px;width: 400px;">
+                <div class="card-body">
+                    <h5 class="card-title">Recent article </h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Railroad_Stories_cover_illustration_of_1882_Spuyten_Duyvil_train_wreck.png/246px-Railroad_Stories_cover_illustration_of_1882_Spuyten_Duyvil_train_wreck.png" class="card-img-top" alt="..." style="height: 400px;width: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">In the news</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                        content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="padding-left: 50px;">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGRokeQdzJ8K6WVyEPscTutbrVJgwtmcYFYA&usqp=CAU" class="card-img-top" alt="..." style="height: 400px;width:300px;">
+                <div class="card-body">
+                    <h5 class="card-title">did you know</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </body>
+    
+    </html>
+    

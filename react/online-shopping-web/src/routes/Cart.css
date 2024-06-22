@@ -1,0 +1,22 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 0 auto;
+}
+
+.card-img-top {
+    border-radius: 20px;
+    height: 200px;
+
+}
+
+.row-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}

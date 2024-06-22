@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food menu</title>
+    <style>
+        h3 {
+            /* text-transform: uppercase; */
+            border: 3px solid transparent;
+            background-color: burlywood;
+            border-radius: 20px;
+            width: 160px;
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: px;
+        }
+
+        #main {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 800px
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        #appe {
+
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            width: 800px
+        }
+
+        #bev {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 800px
+        }
+
+        img {
+            height: 150px;
+            border: 3px solid transparent;
+            border-radius: 100px;
+
+        }
+
+        h1 {
+            width: 750px;
+            text-align: center;
+            text-shadow: 6px 6px skyblue;
+            font-size: 60px;
+        }
+
+        h4 {
+            width: 750px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        #b1 {
+
+            /* background-color: black; */
+            color: aliceblue;
+            margin: 200px;
+            height: 800px;
+            width: 750px;
+
+        }
+
+        #sp {
+            border: 3px solid transparent;
+            background-color: burlywood;
+            border-radius: 10px;
+            font-size: 8px;
+
+        }
+
+        #sp1 {
+            margin-left: 10px;
+            border: 3px solid transparent;
+            background-color: burlywood;
+            border-radius: 10px;
+            font-size: 8px;
+
+        }
+
+        body {
+            background-image: url(../images/food_back.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="b1">
+        <h1>FOOD MENU</h1>
+        <h4>Paucek and Lage Restaurant</h4>
+        <h3>mainCourse</h3>
+        <div id="main">
+            <ul>
+                <li>Cheeseburger</li>
+                <li>Cheese sandwich</li>
+                <li>Chicken burgers</li>
+                <li>Spicy chicken</li>
+                <li>Hot dog</li>
+            </ul>
+            <ul>
+                <li>&#8377;550</li>
+                <li>&#8377;470</li>
+                <li>&#8377;395</li>
+                <li>&#8377;350</li>
+                <li>&#8377;300</li>
+            </ul>
+            <img src="../images/main.jpeg" alt="main_course">
+        </div>
+
+        <h3>appetizers</h3>
+        <div id="appe">
+            <ul>
+                <li>Fruit Salad</li>
+                <li>Cocktails</li>
+                <li>Nuggets</li>
+                <li>Sandwich</li>
+                <li>French Fries</li>
+            </ul>
+            <ul>
+                <li>&#8377;300</li>
+                <li>&#8377;250</li>
+                <li>&#8377;320</li>
+                <li>&#8377;200</li>
+                <li>&#8377;350</li>
+            </ul>
+            <img src="../images/appetizers.jpeg" alt="main_course">
+        </div>
+
+        <h3>beverages</h3>
+        <div id="bev">
+            <ul>
+                <li>Milk Shake</li>
+                <li>Iced Tea</li>
+                <li>Orange Juice</li>
+                <li>Lemon Tea</li>
+                <li>Coffee</li>
+            </ul>
+            <ul>
+                <li>&#8377;180</li>
+                <li>&#8377;120</li>
+                <li>&#8377;80</li>
+                <li>&#8377;50</li>
+                <li>&#8377;195</li>
+            </ul>
+            <img src="../images/beverages.jpeg" alt="main_course">
+        </div>
+        <span id="sp"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>123-456-7890 </span>
+        <span id="sp1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+            </svg>123 Anywhere St., Any City</span>
+    </div>
+
+</body>
+
+</html>
